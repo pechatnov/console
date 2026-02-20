@@ -3,27 +3,27 @@
 - `ssh-keygen -t rsa`
 ###### Просмотр ключа
 - `cat ~/.ssh/id_rsa.pub`
-### Войти через консоль
+###### Вход
 - `ssh bitrix@dev.ru`
-### Админ
+###### Админ
 - `sudo su`
 - `sudo -s`
-### Архив
+###### Архив
 - `zip -r bitrix.zip bitrix`
 - `unzip bitrix.zip`
 - `zip -r /home/bitrix/www/www.zip /home/bitrix/www`
 - `unzip www.zip -d /home/bitrix/www`
 
 ### Mysql
-### Админ
+###### Админ
 - `sudo mysql -u root`
 ###### Перезагрузка
 - `sudo service mysql restart`
 - `systemctl stop mysql`
 - `systemctl start mysql`
-### Создание бекапа
+###### Создание бекапа
 - `mysqldump -u bxgrand1 -p asd > asd.sql`
-### Создание сюперюзера
+###### Создание сюперюзера
 - `CREATE USER 'bxgrand1'@'localhost' IDENTIFIED BY 'password123';`
 - `GRANT ALL PRIVILEGES ON * . * TO 'bxgrand1'@'localhost';`
 - `FLUSH PRIVILEGES;`
