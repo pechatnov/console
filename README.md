@@ -90,3 +90,7 @@
 `cd /home/bitrix/www`  
 `git reset --hard`  
 `git clean -fd`
+
+### Docker
+###### Запуск контейнеров
+`docker compose up -d`
