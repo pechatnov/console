@@ -13,6 +13,15 @@
 `unzip bitrix.zip`  
 `zip -r /home/bitrix/www/www.zip /home/bitrix/www`  
 `unzip www.zip -d /home/bitrix/www`
+###### Установка пакетов
+`yum install mc`  
+`yum install curl-devel`  
+`yum install nano`  
+`yum install nodejs`  
+`yum install npm`  
+`npm install -g @bitrix/cli`
+###### Создание ссылки
+`ln -s local/templates/main/assets/ assets`
 
 ### Mysql
 ###### Админ
@@ -31,13 +40,6 @@
 ### Apache
 ###### Перезагрузка
 `service httpd restart`
-###### Установка пакетов
-`yum install mc`  
-`yum install curl-devel`  
-`yum install nano`  
-`yum install nodejs`  
-`yum install npm`  
-`npm install -g @bitrix/cli`
 
 ### BitrixVM
 ###### Перейти в корень
